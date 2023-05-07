@@ -85,7 +85,7 @@ public class ButtonJAction extends Component {
             case 5:
             {
                 msg = msg.toLowerCase();
-                //result = Algoritm.bekkon(msg);
+                result = Bekkon.encryptionBekkon(msg);
                 break;
             }
         }
@@ -132,7 +132,7 @@ public class ButtonJAction extends Component {
             }
             case 5:
             {
-                //System.out.println(Algoritm.decryptBekkon(encrypt));
+                System.out.println(Bekkon.decryptBekkon(encrypt));
                 break;
             }
         }
